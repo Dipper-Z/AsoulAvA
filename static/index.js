@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return 'AvavaAVA';
+    if (score <= 49) return 'AvavaAVA，菜！';
     if (score <= 99) return '给你一拳！';
-    if (score <= 149) return '好兄弟！';
-    if (score <= 199) return '下雨了...';
+    if (score <= 149) return '好兄弟！有点厉害！';
+    if (score <= 199) return '枝江唯一Gamer的含金量！';
     return '关注向晚，现在不晚！';
 }
 
