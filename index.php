@@ -2,9 +2,9 @@
 <html lang="zh">
 
 <head>
-    <title>吃掉小鹿乃</title>
-    <meta itemprop="name" content="吃掉小鹿乃" />
-    <meta itemprop="description" content="新概念音游" />
+    <title>流汗晚豆</title>
+    <meta itemprop="description" content="关注向晚，现在不晚" />
+    <meta itemprop="image" content="https://www.thac.cc/kano/res/logo.jpg" />
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, width=device-width,target-densitydpi=device-dpi" />
     <link href="./static/index.css" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
             <div id="GameScoreLayer-CPS" style="margin:5px 0;"></div>
             <div id="GameScoreLayer-score" style="margin:10px 0;">得分</div>
             <div id="GameScoreLayer-bast">最佳</div>
-            <button type="button" class="btn btn-secondary btn-lg" id="replay" onclick="replayBtn()">重来</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="replay" onclick="replayBtn()">Remake</button>
         <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.reload()">主页</button>
 			<button type="button" class="btn btn-secondary btn-lg" onclick="goRank();">排行</button>
             <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='https://github.com/arcxingye/EatKano'">开源</button>
@@ -73,7 +73,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text" id="basic-addon1">标题</span>
                         </div>
-                        <input type="text" id="title" class="form-control" placeholder="吃掉小鹿乃">
+                        <input type="text" id="title" class="form-control" placeholder="关注嘉然">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
