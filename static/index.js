@@ -175,7 +175,7 @@ function SubmitResults() {
 function gameTime() {
     _gameTimeNum--;
     if (_gameTimeNum <= 0) {
-        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;时间到！';
+        GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;时间到了捏！';
         gameOver();
         GameLayerBG.className += ' flash';
         createjs.Sound.play("end");
@@ -345,7 +345,7 @@ function shareText(score) {
     if (score <= 99) return '给你一拳！';
     if (score <= 149) return '好兄弟！';
     if (score <= 199) return '下雨了...';
-    return '也不是不可以啦~';
+    return '关注向晚，现在不晚！';
 }
 
 function toStr(obj) {
