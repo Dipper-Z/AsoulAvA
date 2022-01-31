@@ -1,4 +1,4 @@
-[流汗晚豆](https://toxicu235.github.io/RainyAVA/)
+[流汗晚豆](https://dipper-z.github.io/AsoulAvA/)
 
 # RainyAVA
 绷不住大挑战：流汗晚豆，开源自：
